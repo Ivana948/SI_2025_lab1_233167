@@ -1,0 +1,42 @@
+2.
+
+git checkout -b remove-task-by-name
+git push -u origin remove-task-by-name
+
+git checkout -b mark-task-completed
+git push -u origin mark-task-completed
+
+git checkout -b count-tasks-per-category
+git push -u origin count-tasks-per-category
+
+git checkout remove-task-by-name
+nano TaskManager.java
+git add TaskManager.java
+git commit -m "Implement remove task by name feature"
+git push origin remove-task-by-name
+git checkout master
+git pull origin master
+
+git checkout mark-task-completed
+nano TaskManager.java
+git add TaskManager.java
+git commit -m "Implement mark task completed feature"
+git push origin mark-task-completed
+git checkout master
+git pull origin master
+
+
+git checkout count-tasks-per-category
+nano TaskManager.java
+git add TaskManager.java
+git commit -m "Implement count tasks per category feature"
+git push origin count-tasks-per-category
+git checkout master
+git pull origin master
+
+git checkout master
+git pull origin master
+git merge mark-tasks-completed
+git add TaskManager.java 
+git commit -m "Resolved merge conflict"
+git push origin master

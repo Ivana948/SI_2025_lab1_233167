@@ -1,0 +1,19 @@
+*   e7c6d9d Resolved merge conflicts
+|\  
+| * 4a6f35e Implement mark all tasks in a category as completed
+* |   b37a798 Merge pull request #12 from Ivana948/count-tasks-per-category
+|\ \  
+| * \   8a33df5 Merge branch 'master' into count-tasks-per-category
+| |\ \  
+| |/ /  
+|/| |   
+* | |   bde426d Merge pull request #10 from Ivana948/remove-task-by-name
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 9c53ea9 Implement remove a task by name feature
+|/ /  
+| * 432381d Implement count tasks per category
+|/  
+* 6c36d0c Add starter code
+* 1d6ef99 Initial commit
