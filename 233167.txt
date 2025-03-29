@@ -40,3 +40,14 @@ git merge mark-tasks-completed
 git add TaskManager.java 
 git commit -m "Resolved merge conflict"
 git push origin master
+
+3.
+
+git clone https://github.com/Ivana948/SI_2025_lab1_151020
+cd SI_2025_lab1_151020
+echo "Ivana" > 233167.txt
+git add 233167.txt
+git commit -m "Add file"
+git checkout master
+git pull origin master
+git push origin master
